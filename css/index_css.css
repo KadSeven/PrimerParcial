@@ -1,0 +1,105 @@
+:root{
+    --primary: black;
+    --background: grey;
+    --letter: #fff;
+    --media600: red;
+    --border: grey;
+}
+
+.table {
+    border: 7px solid grey;
+    background-image: url(https://i.ytimg.com/vi/x9EI1aLFfAo/maxresdefault.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 150px;
+    margin-left: 680px;
+}
+
+.table:hover {
+    background-image: url(https://media.tenor.com/Rpk3q-OLFeYAAAAC/hakari-dance-hakari.gif);
+    width: 500px;
+    height: 280px;
+}
+
+body {
+    background: var(--background);
+    background-image: url(https://usagif.com/wp-content/uploads/2022/hqgif/elmo-9-transparent-elmo-fire-meme-acegif.gif);
+}
+
+.nav_enlace {
+    display: inline-block;
+    background:var(--background);
+    color: var(--letter);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+#random1:hover {
+    background-image: url(https://i.gifer.com/Kifh.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#random2:hover {
+    background-image: url(https://i.pinimg.com/originals/be/53/fc/be53fc5350400539c44b3bc7c2552fe9.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#random3:hover {
+    background-image: url(https://i.gifer.com/origin/e3/e3ae369ad93835f8a30a503ae116e3fb.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#contacto:hover {
+    background-image: url(https://www.icegif.com/wp-content/uploads/icegif-2013.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#Inicio:hover {
+    background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/002/619/250/613.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav {
+    background: var(--primary);
+    padding: 15px 15px 15px 15px ;
+    justify-content: space-around;
+    display: flex;
+}
+
+.button {
+    background: var(--background);
+    color: var(--letter);
+    padding: 10px 2px;
+    border: 2px solid var(--border);
+    display: none;
+}
+
+@media (max-width: 600px) {
+    nav {
+        background: var(--media600);
+        flex-direction: column;
+        display: flex ;
+        justify-content: space-around;
+    }
+
+    .nav_enlace {
+        margin: 2px;
+        background: var(--primary);
+    }
+
+    .desaparece {
+        display: none;
+    }
+    
+    .button {
+        display: inline-block;
+        background: var(--primary);
+    } 
+}

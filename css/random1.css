@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://usagif.com/wp-content/uploads/gify/39-anime-dance-girl-usagif.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.nav_enlace {
+    display: inline-block;
+    background:var(--background);
+    color: var(--letter);
+    padding: 10px 30px;
+    text-decoration: none;
+}
